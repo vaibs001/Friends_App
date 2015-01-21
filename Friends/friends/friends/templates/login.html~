@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<form action="/login/" method="POST">
+{%csrf_token%}
+<h1 style="text-align:centre"> Login Here </h1>
+UserName:<br> <input type="text" name="username">
+<br>
+Password:<br> <input type="password" name="password">
+<br><br>
+<input type="submit" value="Submit">&nbsp&nbsp<a href=/register/>New User?</a>
+</form>
+
+</body>
+</html>
+
+

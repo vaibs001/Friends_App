@@ -1,0 +1,6 @@
+<html>
+{% block title %}Clone{% endblock %}
+{% block content %}
+	<p>Hi {{user_name }} !!</p>
+{% endblock %}
+</html>
